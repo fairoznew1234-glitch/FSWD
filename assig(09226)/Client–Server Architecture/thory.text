@@ -1,0 +1,98 @@
+................................................
+Client–Server Architecture:-
+Client–Server Architecture is a network model in which multiple clients (users or devices) request services and resources from a centralized server.
+A client is any device or application (like a web browser) that sends a request to access information. A server is a powerful computer that stores data, processes requests, and sends responses back to the client.
+Communication between the client and server happens over the internet using protocols such as HTTP or HTTPS.
+This architecture is widely used in web applications, email systems, and online services.
+................................................
+
+Components of Client–Server Architecture
+
+Client
+End-user device (computer, mobile)
+Sends requests
+Displays the response
+
+Server
+
+Stores website data and files
+Processes client requests
+Sends responses
+
+Network (Internet)
+
+Connects client and server
+Transfers data between them
+Protocols
+
+Rules for communication (HTTP/HTTPS)
+
+📌 Advantages
+
+Centralized data management
+Easy maintenance and updates
+Better security
+Scalable system
+
+..................................................
+
+📌 What Happens When You Open a Website?
+
+When you open a website, the following steps occur:
+
+1.Entering URL
+You type a website address in the browser.
+2.DNS Resolution
+The Domain Name System converts the domain name into an IP address.
+3.Sending Request
+The browser sends an HTTP/HTTPS request to the server.
+4.Server Processing
+The server receives the request and processes it.
+5.Receiving Response
+The server sends back the requested data (HTML, CSS, JavaScript).
+6.Rendering the Page
+The browser displays the webpage on the screen.
+.........................................................
+
+📌 Conclusion
+
+Client–Server Architecture is the backbone of the internet. 
+It enables communication between users and servers, 
+allowing us to access websites and online services efficiently.
+
+.............................................................
+
+Client–Server Architecture Diagram
+
+        +-------------------+
+        |      CLIENT       |
+        | (Browser/User PC) |
+        +-------------------+
+                 |
+                 |  Request (HTTP/HTTPS)
+                 ↓
+        +-------------------+
+        |        DNS        |
+        | (Domain → IP)     |
+        +-------------------+
+                 |
+                 ↓
+        +-------------------+
+        |      INTERNET     |
+        |   (Network Path)  |
+        +-------------------+
+                 |
+                 ↓
+        +-------------------+
+        |      SERVER       |
+        | (Web Server + DB) |
+        +-------------------+
+                 |
+                 |  Response (HTML, CSS, JS)
+                 ↑
+        +-------------------+
+        |      CLIENT       |
+        |  (Displays Page)  |
+        +-------------------+
+
+.................................................end.............................................

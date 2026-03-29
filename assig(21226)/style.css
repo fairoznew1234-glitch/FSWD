@@ -1,0 +1,37 @@
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+/* Header */
+header {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+/* Flex Container */
+.container {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  gap: 10px;
+}
+
+/* Boxes */
+.box {
+  background: #4CAF50;
+  color: white;
+  padding: 40px;
+  text-align: center;
+  flex: 1;
+  border-radius: 8px;
+}
+
+/* Responsive for Mobile */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;  /* stack items */
+  }
+}
